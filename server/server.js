@@ -42,4 +42,4 @@ app.post('/', async (req, res) => {
    }
 })
 
-app.listen(3000, () => console.log('Server is runing on port http://localhost:3000'));
+app.listen("https://chatai-pt2a.onrender.com", () => console.log('Server is runing on https://chatai-pt2a.onrender.com'));
