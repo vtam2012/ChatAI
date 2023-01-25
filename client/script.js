@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch('https://chatai-pt2a.onrender.com/', {
+  const response = await fetch('http://localhost:3000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
